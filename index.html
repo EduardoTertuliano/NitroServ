@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nitroserv - Manutenção de Cilindros de Gás de Alta Pressão</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Toast Notification -->
+<div id="welcomeToast" class="toast-notification">
+  <button class="close-btn" onclick="closeToast()">&times;</button>
+  <strong>Bem-vindo à Nitroserv!</strong><br>
+  Obrigado por visitar nosso site. Estamos à disposição para atendê-lo!
+</div>
+
+<!-- Texto abaixo da faixa de boas-vindas -->
+<div id="subtitle-section" class="subtitle-section">
+  <h2>Segurança e Performance para seus Cilindros</h2>
+</div>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#home">
+      <i class="fas fa-tools"></i> Nitroserv
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#home">Início</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#sobre">Sobre</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#servicos">Serviços</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contato">Contato</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#endereco">Endereço</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section id="home" class="hero">
+  <p>Na Nitroserv, garantimos serviços de manutenção, inspeção e testes com total qualidade e responsabilidade, para a sua tranquilidade e a longevidade dos seus equipamentos.</p>
+  <div class="hero-buttons">
+     <a href="https://wa.me/5511987838439?text=Olá! Olá, venho pelo site, e gostaria de um orçamento.." target="_blank" class="btn-hero btn-success-hero">
+      <i class="fab fa-whatsapp"></i> Solicite seu Orçamento
+    </a>
+  </div>
+</section>
+
+<!-- Content -->
+<div class="content">
+  <!-- Sobre Section -->
+  <div class="section animate-on-scroll" id="sobre">
+    <h3><i class="fas fa-info-circle"></i> Sobre a Nitroserv</h3>
+    <p>Somos uma empresa dedicada à manutenção de cilindros de gás de alta pressão. Oferecemos serviços de excelência, com um compromisso inabalável com a segurança, a conformidade técnica e a satisfação do cliente.</p>
+    <p>Atendemos empresas de diversos segmentos, proporcionando soluções confiáveis e profissionais para suas necessidades em gestão de cilindros. Nossa equipe é formada por profissionais altamente qualificados e certificados.</p>
+  </div>
+
+  <!-- Serviços Section -->
+  <div class="section animate-on-scroll" id="servicos">
+    <h3><i class="fas fa-cogs"></i> Nossos Serviços</h3>
+    <div class="services-grid">
+      <div class="service-card">
+        <i class="fas fa-search"></i>
+        <h4>Inspeção Visual</h4>
+        <p>Verificação detalhada da condição externa do cilindro, válvulas e conexões.</p>
+      </div>
+      <div class="service-card">
+        <i class="fas fa-tint"></i>
+        <h4>Teste Hidrostático</h4>
+        <p>Teste conforme norma ABNT NBR 12274 para verificar integridade estrutural.</p>
+      </div>
+      <div class="service-card">
+        <i class="fas fa-broom"></i>
+        <h4>Limpeza Interna</h4>
+        <p>Remoção de resíduos e umidade para prevenir corrosão e contaminação.</p>
+      </div>
+      <div class="service-card">
+        <i class="fas fa-wrench"></i>
+        <h4>Manutenção de Válvulas</h4>
+        <p>Troca ou reparo de válvulas danificadas ou obsoletas.</p>
+      </div>
+      <div class="service-card">
+        <i class="fas fa-certificate"></i>
+        <h4>Requalificação</h4>
+        <p>Processo completo de inspeção, teste e certificação de cilindros.</p>
+      </div>
+      <div class="service-card">
+        <i class="fas fa-paint-brush"></i>
+        <h4>Pintura e Identificação</h4>
+        <p>Aplicação de pintura protetora e atualização das marcações.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contato Section -->
+  <div class="section animate-on-scroll" id="contato">
+    <h3><i class="fas fa-headset"></i> Entre em Contato</h3>
+    <div class="contact-info">
+      <div class="contact-item">
+        <i class="fas fa-envelope"></i>
+        <div>
+          <strong>Email</strong>
+          <a href="mailto:contato.nitroserv@gmail.com">contato.nitroserv@gmail.com</a>
+        </div>
+      </div>
+      <div class="contact-item">
+        <i class="fab fa-whatsapp"></i>
+        <div>
+          <strong>WhatsApp</strong>
+          <a href="https://wa.me/5511987838439?text=Olá! Gostaria de saber mais sobre os serviços da Nitroserv." target="_blank">(11) 98783-8439</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Endereço Section -->
+  <div class="section animate-on-scroll" id="endereco">
+    <h3><i class="fas fa-map-marker-alt"></i> Nosso Endereço</h3>
+    <div class="contact-item">
+      <i class="fas fa-map-marker-alt"></i>
+      <div>
+        <strong>Endereço Completo</strong>
+        <p style="margin: 0; color: var(--grey-text);">
+          <strong>Logradouro:</strong> Avenida Pacaembu, 2500, Galpão 05<br>
+          <strong>Bairro:</strong> Jardim Paulista<br>
+          <strong>Município/UF:</strong> Várzea Paulista, SP<br>
+          <strong>CEP:</strong> 13.222-000<br>
+          <strong>CNPJ:</strong> 20.840.950/0001-31
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer>
+  <div class="container">
+    <p><i class="fas fa-tools"></i> &copy; 2025 Nitroserv - Todos os direitos reservados.</p>
+    <p>Especialistas em Manutenção de Cilindros de Gás de Alta Pressão</p>
+  </div>
+</footer>
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-OERcA2Eqk7UjCvxWILLx1Rv5UY+WJ6mWBZl5ZB7jDLxQdCFSF6AH81ZO5U4Q+CZo" 
+        crossorigin="anonymous"></script>
+
+<script src="script.js"></script>
+</body>
+</html>
+
